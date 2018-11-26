@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: rgb(207, 231, 250);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(207, 231, 250, 1) 0%, rgba(99, 147, 193, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(207, 231, 250, 1) 0%, rgba(99, 147, 193, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(207, 231, 250, 1) 0%, rgba(99, 147, 193, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfe7fa', endColorstr='#6393c1', GradientType=0);
+	background-attachment: fixed;
+	max-width: 900px;
+	margin: 30px auto;
+	padding: 20px;
+
+}
+
+
+
+
+.logo {
+	height: 60px;
+	width: 100px;
+}
+
+a.titulo {
+	font-size: 30px;
+	font-weight: 500;
+	color: darkblue;
+	font-family: inherit;
+}
+
+
+div.tarjetas {
+	display: flex;
+	flex-flow:wrap;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-right: 10%;
+	font-family: inherit;
+	font-size: 13px;
+	margin-bottom: 10%;
+	
+
+}
+.card {
+	margin-bottom: 10%;
+	background-color: blanchedalmond;
+}
+
+
+
+
+.botoninfo {
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#noMatchingResult {
+	text-align: center;
+}
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	font-family: inherit;
+	color: darkblue;
+}
